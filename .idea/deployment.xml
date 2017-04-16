@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="https://github.com/Andriy-sth/MyBLog" uploadOnCheckin="42444930-5142-40ec-ba25-7169f9bc7d8b">
+    <serverData>
+      <paths name="https://github.com/Andriy-sth/MyBLog">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myUploadOnCheckinName" value="https://github.com/Andriy-sth/MyBLog" />
+  </component>
+</project>
