@@ -1,6 +1,6 @@
 from django.contrib.auth.models import User
 from django.db import models
-
+SHORT_TEXT_LEN = 100
 # Create your models here.
 class Article(models.Model):
     title = models.CharField(max_length=200)
@@ -9,3 +9,9 @@ class Article(models.Model):
 
     def __str__(self):
         return self.title
+
+    def get_short_text(self):
+        if len(self.text) > SHORT_TEXT_LEN:
+            return self.text[:SHORT_TEXT_LEN]
+        else:
+            return self.text

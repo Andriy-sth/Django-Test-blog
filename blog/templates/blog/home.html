@@ -6,7 +6,11 @@
 
 {% block content %}
 
-    <h1><br>Homaaae</h1>
-    <p>nnn adaq dwed</p>
+    <h1><br>Home</h1>
+   {% for article in articles  %}
+   <h4> {{ article.title }}</h4>
+   <pre> {{ article.get_short_text }}</pre>
+
+   {% endfor %}
 
 {% endblock %}
